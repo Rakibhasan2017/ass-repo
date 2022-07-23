@@ -64,8 +64,6 @@ body{
   .players-img img {
     width: 100%;} 
 
-
-
 /* upcoming container style */
 
 .upcoming-container {
@@ -103,32 +101,41 @@ body{
     border-radius: 10px;
     font-weight: bold;
 }
-#upcoming-blog {
-    background-color: #d7241c;
-    color: white;
+
+.upcoming-img {
+    display: flex;
+    width: 248px;
+    margin: 0 auto;
+    margin-top: 61px;
+}
+
+.upcoming-img img {
+    width: 100%;
+}
+
+.upcoming-img p {
+    text-align: center;
+    font-size: 20px;
     font-weight: bold;
 }
+
 .upcoming-coloum {
+    width: 329px;
+    height: 289px;
     background-color: gainsboro;
+}
+.upcoming-img h1 {
+    text-align: center;
     width: 312px;
-    border-radius: 10px;
-    border: 2px solid #9b9b9b;
 }
-#blog-button {
-    width: 82px;
-    padding: 5px;
-    border-radius: 6px;
-    margin: 6px;
+
+p#pragrap {
+    color: black;
+    width: 177px;
+    margin-left: 81px;
 }
-.upcoming-coloum p {
-    width: 205px;
-    font-weight: bold;
-    padding: 5px;
-    margin-left: 10px;
-}
-#icon{
-    margin: 7px;
-}
+/* footer style start */
+
 footer.container {
     background-color: black;
     width: 100%;
