@@ -59,8 +59,12 @@ body{
         color: white;
         font-size: 1rem;
         margin-left: 76px;
+        transition:width 2s;
     }
-    
+    .players-part-article input:hover {
+        background-color: #6e6763;
+        width: 210px;
+    }
     .players-img {
         width:400px;
         margin: 0 auto;
